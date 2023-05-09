@@ -11,9 +11,10 @@
 
         @viteReactRefresh
         @vite(['resources/css/app.css', 'resources/js/app.js','resources/css/tailwind.css'])
-        @vite(['resources/js/components/Example.jsx'])
+        @vite(['resources/js/components/Example.jsx','resources/js/components/FilterTable.jsx'])
     </head>
     <body class="antialiased">
         <div id="example"></div>
+        <div id="table"></div>
     </body>
 </html>
